@@ -1,6 +1,6 @@
 # 🚀 EVE2 - Hardware Interfacing
 
-Dit project bevat verschillende **voorbeelden en uitwerkingen** voor het opzetten van een lijnvolgende robot en het testen van sensoren en motoren met een Arduino. Het is ontwikkeld in het kader van **Sprint 0** van Hardware Interfacing.
+Dit project bevat verschillende **voorbeelden en uitwerkingen** voor het opzetten van een lijnvolgende robot en het testen van sensoren en motoren met een Arduino. Het is ontwikkeld in het kader van **Hardware Interfacing**.
 
 ## 📂 Bestandsstructuur
 ### `s0_voorbeelden/`
