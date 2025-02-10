@@ -17,7 +17,7 @@ import time
 #   kunnen variëren afhankelijk van de specifieke hardware, omgevingsfactoren 
 #   en gewenste precisie.
 # - Dit is een eenvoudige opzet en vereist verdere uitbreiding en optimalisatie.
-# - Deze code kan collega-studenten helpen als startpunt bij hun eigen implementatie.
+# - Deze code kan collega's helpen als startpunt bij hun eigen implementatie.
 #
 # **Link met de datapunten:**
 # - Sprint 0 - Datapunt 5: Sensorinstellingen en uitlezing
