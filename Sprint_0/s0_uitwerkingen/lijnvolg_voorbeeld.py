@@ -74,15 +74,15 @@ def loop():
         # Controleer of de middelste sensor (A2) de lijn detecteert
         if sensor_waarden[2] < THRESHOLD:
             # Lijn in het midden -> recht vooruit rijden
-            zet_motoren(0.22, 0.3)  # **Let op:** Pas snelheid aan op basis van tests!
+            zet_motoren(0.2, 0.2)  # **Let op:** Pas snelheid aan op basis van tests!
         else:
             # Lijn niet in het midden, corrigeer richting
             if sensor_waarden[1] < THRESHOLD:
                 # Lijn gedetecteerd door linker sensor (A1), stuur naar links
-                zet_motoren(0.2, 0.5)  
+                zet_motoren(0.2, 0.3)  
             elif sensor_waarden[3] < THRESHOLD:
                 # Lijn gedetecteerd door rechter sensor (A3), stuur naar rechts
-                zet_motoren(0.5, 0.3)
+                zet_motoren(0.3, 0.2)
             else:
                 # Geen lijn gedetecteerd -> stop of zoek naar de lijn
                 zet_motoren(0, 0)
